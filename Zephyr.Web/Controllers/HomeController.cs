@@ -14,7 +14,7 @@ namespace Zephyr.Controllers
         public ActionResult Index()
         {
             var loginer = FormsAuth.GetUserData<LoginerBase>();
-            ViewBag.Title = "建设工程材料管理系统";
+            ViewBag.Title = "开发平台";
             ViewBag.UserName = loginer.UserName;
             ViewBag.Settings = new sys_userService().GetCurrentUserSettings();
 
