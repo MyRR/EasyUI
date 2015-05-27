@@ -20,7 +20,10 @@ namespace Zephyr.Controllers
 
             return View();
         }
- 
+        /// <summary>
+        /// 错误提示页面
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Error() 
         {
             return View();
