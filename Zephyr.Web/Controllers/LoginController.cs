@@ -24,14 +24,14 @@ namespace Zephyr.Controllers
 
         public ActionResult Mms()
         {
-            ViewBag.CnName = "建筑材料管理系统";
+            ViewBag.CnName = "开发平台";
             ViewBag.EnName = "Engineering Material Mangange System";
             return View("Index");
         }
 
         public ActionResult Psi() 
         {
-            ViewBag.CnName = "企业进销存管理系统";
+            ViewBag.CnName = "管理系统";
             ViewBag.EnName = "Purchase-Sales-Inventory Management System";
             ViewBag.EnNameStyle = "left:298px;";
             return View("Index");
